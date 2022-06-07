@@ -1,6 +1,6 @@
 public class Historia {
 
-    private Tarefa epico;
+    private Atividade epico;
 
     public String getEpico() {
         if (this.epico == null) {
@@ -9,7 +9,7 @@ public class Historia {
         return this.epico.getConteudo();
     }
 
-    public void setEpico(Tarefa epico) {
+    public void setEpico(Atividade epico) {
         this.epico = epico;
     }
 }
